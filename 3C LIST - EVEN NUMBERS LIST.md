@@ -24,8 +24,20 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+Reg N0-212222060019
+Name-ARIGALA LAVANYA
+
+l=eval(input())
+sum=1
+for i in range(0,len(l)):
+    if l[i]%10==2:
+        sum*=l[i]
+print("Product= {}".format(sum))
+OUTPUT
 ```
 
 ### OUTPUT
+<img width="932" height="214" alt="image" src="https://github.com/user-attachments/assets/644e6a80-dd87-4f04-a882-f8d608ea8d65" />
 
 ### RESULT
+Thus a python program to display the product of all the values which are ending with 2 from a list has been successfully implemented.
